@@ -1,0 +1,15 @@
+CREATE TABLE `movies`.`favourite movies` (
+  `idfavourite movies` INT NOT NULL,
+  `NAME` VARCHAR(45) NOT NULL,
+  `ACTOR` VARCHAR(45) NOT NULL,
+  `ACTRESS` VARCHAR(45) NOT NULL,
+  `DIRECTOR` VARCHAR(45) NOT NULL,
+  `YEAR OF RELEASE` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idfavourite movies`));
+INSERT INTO `movies`.`favourite movies` (`idfavourite movies`, `NAME`, `ACTOR`, `ACTRESS`, `DIRECTOR`, `YEAR OF RELEASE`) VALUES ('1', 'nannaku prematho', 'jr.NTR', 'Rakul Preet Singh', 'sukumar', '2016');
+INSERT INTO `movies`.`favourite movies` (`idfavourite movies`, `NAME`, `ACTOR`, `ACTRESS`, `DIRECTOR`, `YEAR OF RELEASE`) VALUES ('2', 'janatha garage', 'jr.NTR', 'samantha', 'koratala siva', '2016');
+INSERT INTO `movies`.`favourite movies` (`idfavourite movies`, `NAME`, `ACTOR`, `ACTRESS`, `DIRECTOR`, `YEAR OF RELEASE`) VALUES ('3', 'temper', 'jr.NTR', 'kajal agarwal', 'puri jagannath', '2015');
+INSERT INTO `movies`.`favourite movies` (`idfavourite movies`, `NAME`, `ACTOR`, `ACTRESS`, `DIRECTOR`, `YEAR OF RELEASE`) VALUES ('4', 'simhadri', 'jr.NTR', 'bhumika', 'ss rajamouli', '2003');
+INSERT INTO `movies`.`favourite movies` (`idfavourite movies`, `NAME`, `ACTOR`, `ACTRESS`, `DIRECTOR`, `YEAR OF RELEASE`) VALUES ('5', '3', 'dhanush', 'sruthi hassan', 'aishwarya dhanush', '2012');
+INSERT INTO `movies`.`favourite movies` (`idfavourite movies`, `NAME`, `ACTOR`, `ACTRESS`, `DIRECTOR`, `YEAR OF RELEASE`) VALUES ('6', 'bhahubali', 'prabhas', 'anushkha', 'ss rajamouli', '2015');
+INSERT INTO `movies`.`favourite movies` (`idfavourite movies`, `NAME`, `ACTOR`, `ACTRESS`, `DIRECTOR`, `YEAR OF RELEASE`) VALUES ('7', 'maharshi', 'mahesh babu', 'pooja hegde', 'vamshi pidipalli', '2019');
